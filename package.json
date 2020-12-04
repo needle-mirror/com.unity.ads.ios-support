@@ -1,15 +1,15 @@
 {
   "name": "com.unity.ads.ios-support",
   "displayName": "iOS 14 Advertising Support",
-  "version": "0.1.0-preview.1",
+  "version": "0.1.0-preview.2",
   "unity": "2018.4",
   "description": "Provides support for App Tracking Transparency and SkAdNetwork API newly introduced in Apple iOS 14.",
   "upmCi": {
-    "footprint": "6548ab489b2a48b7914d5c3e68ecaf0ea5815a08"
+    "footprint": "fefe324d79e5debceeeda4e6ea7d1173f28ffb8f"
   },
   "repository": {
-    "url": "https://github.com/Unity-Technologies/com.unity.ads.ios-support.git",
+    "url": "https://github.com/Unity-Technologies/com.unity.ads.ios-support-private.git",
     "type": "git",
-    "revision": "b78482c4a402902ab8195620253e93157bcc1d93"
+    "revision": "d4eec98ebab6608ac679632eae7ae7fb6c1722ed"
   }
 }
