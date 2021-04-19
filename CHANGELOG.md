@@ -1,8 +1,15 @@
 # Changelog
+
 All notable changes to this package will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
+
+## [0.2.0-preview.3] - 2021-04-19
+Added Context Screen Sample
+
+## [0.1.0-preview.3] - 2021-04-12
+Fixed a typo in updateConversionValue
 
 ## [0.1.0-preview.2] - 2020-12-04
 Fix an issue that caused a warning on some metafiles in Unity 2018.4
