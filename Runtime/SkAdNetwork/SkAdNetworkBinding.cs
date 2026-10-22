@@ -4,6 +4,9 @@ using System.Runtime.InteropServices;
 
 namespace Unity.Advertisement.IosSupport
 {
+    /// <summary>
+    /// Provides access to Apple's SKAdNetwork API on iOS. Calls have no effect on other platforms.
+    /// </summary>
     public class SkAdNetworkBinding
     {
 #if UNITY_IOS
@@ -14,6 +17,7 @@ namespace Unity.Advertisement.IosSupport
         /// <summary>
         /// This method allows you to <a href="https://developer.apple.com/documentation/storekit/skadnetwork/3566697-updateconversionvalue?language=objc">update the attribution conversion value</a>.
         /// </summary>
+        /// <param name="conversionValue">The new conversion value to report for the app install.</param>
         public static void SkAdNetworkUpdateConversionValue(int conversionValue)
         {
 #if UNITY_IOS

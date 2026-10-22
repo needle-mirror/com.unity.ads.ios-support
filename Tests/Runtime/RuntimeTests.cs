@@ -3,8 +3,14 @@ using NUnit.Framework;
 
 namespace Unity.Advertisement.IosSupport.Tests
 {
+    /// <summary>
+    /// Runtime tests for the iOS support bindings.
+    /// </summary>
     public class RuntimeTests
     {
+        /// <summary>
+        /// Checks that the tracking authorization status is not determined when it has not been requested.
+        /// </summary>
         [Test]
         [Timeout(10000)]
 
